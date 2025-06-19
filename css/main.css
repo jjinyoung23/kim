@@ -1,3 +1,14 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&family=Fascinate&family=Kings&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.fascinate-regular {
+  font-family: "Fascinate", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 /**
 * Template Name: Kelly
 * Template URL: https://bootstrapmade.com/kelly-free-bootstrap-cv-resume-html-template/
@@ -40,7 +51,7 @@
 /* Color Presets - These classes override global colors when applied to any section or element, providing reuse of the sam color scheme. */
 
 .light-background {
-  --background-color: #e9e8e6;
+  --background-color: #e9e7e6;
   --surface-color: #ffffff;
 }
 
@@ -156,7 +167,7 @@ h6 {
 }
 
 .header .logo img {
-  max-height: 36px;
+  max-height: 3px;
   margin-right: 8px;
 }
 
