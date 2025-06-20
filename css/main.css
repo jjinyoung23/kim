@@ -34,6 +34,7 @@
   --default-color: #444444; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #222222; /* Color for headings, subheadings and title throughout the website */
   --accent-color: #34b7a7; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-kim: #f5b30a;
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -798,7 +799,7 @@ section,
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: var(--accent-color);
+  color: var(--accent-color-kim);
   line-height: 0;
 }
 
@@ -834,9 +835,9 @@ section,
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
+  height: 20px;
   transition: 0.9s;
-  background-color: var(--accent-color);
+  
 }
 
 /*--------------------------------------------------------------
@@ -988,7 +989,7 @@ section,
 .resume .resume-item {
   padding: 0 0 20px 20px;
   margin-top: -2px;
-  border-left: 2px solid var(--accent-color);
+  border-left: 2px solid var(--accent-kim);
   position: relative;
 }
 
@@ -1030,7 +1031,7 @@ section,
   left: -9px;
   top: 0;
   background: var(--background-color);
-  border: 2px solid var(--accent-color);
+  border: 2px solid var(--accent-kim);
 }
 
 /*--------------------------------------------------------------
@@ -1422,7 +1423,17 @@ section,
   border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type=reset] {
+  color: var(--contrast-color);
+  background: var(--accent-color);
+  border: 0;
+  padding: 10px 30px;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+
+.contact .php-email-form button[type=reset]:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 25%);
 }
 
